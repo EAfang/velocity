@@ -1,5 +1,8 @@
 ##Velocity 1.2.3
 
+**Note**
+This is the Vector fork of Velocity, created to incoprporate a bugfix from the community since it's useful for the Vector project.
+
 **Docs**  
 [VelocityJS.org](http://VelocityJS.org)
 
