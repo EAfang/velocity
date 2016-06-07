@@ -174,9 +174,13 @@
             store = id && cache[id];
 
         if (store) {
-            $.each(keys, function(_, key) {
-                delete store[key];
-            });
+            if (!keys) {
+                delete cache[id];
+            } else {
+                $.each(keys, function(_, key) {
+                    delete store[key];
+                });
+            }
         }
     };
 
